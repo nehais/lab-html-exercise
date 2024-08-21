@@ -44,13 +44,15 @@ nav a {
 }
 
 .search-bar{
+    margin-top: 1rem;
     position: relative;
-
+    display: flex;
+    align-items: center;
 }
 
 .npm-logo {
     width: 90px;
-    height: 30px;
+    height: 25px;
     margin-right: 1rem;
     margin-top: 1rem;
     vertical-align:middle;
@@ -59,14 +61,14 @@ nav a {
 .mag-glass {
     width: 30px;
     position: absolute;
-    top: 35px;
+    top: 10px;
 }
 
 .search-area{
-    height: 2.8rem;
+    background-color: rgba(246, 244, 244, 0.816);
+    height: 2.5rem;
     letter-spacing: 1px;
     line-height: 1.5em;
-    margin-top: 1rem;
     width: 75rem;
     text-indent: 30px;
 }
@@ -75,23 +77,20 @@ nav a {
     background-color: #fb3e44;
     color: white;
     font-size: 1.2rem;
-    height: 3.2rem;
-    margin-top: 1.5rem;
+    height: 2.8rem;
     width: 6em;
 }
 
 .join-button{
     border: solid 1px;
     height: 2rem;
-    margin-top: 1rem;
     margin-left: 2rem;
     text-decoration: none;
     padding: 5px 20px 5px 20px; 
-    ;vertical-align:middle;
+    vertical-align:middle;
 }
 
 .login-button{
-    margin-top: 1rem;
     margin-left: 2rem;
     text-decoration: none;
     width: 4em;
