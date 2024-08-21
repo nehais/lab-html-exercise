@@ -66,6 +66,7 @@ nav a {
 
 .search-area{
     background-color: rgba(246, 244, 244, 0.816);
+    border: none;
     height: 2.5rem;
     letter-spacing: 1px;
     line-height: 1.5em;
