@@ -39,10 +39,13 @@ nav a {
     justify-content: center;
     text-align: center;
     align-items: center;
-    position: relative;
-    
     padding:0; 
     margin-bottom: 1rem; 
+}
+
+.search-bar{
+    position: relative;
+
 }
 
 .npm-logo {
@@ -55,6 +58,8 @@ nav a {
   
 .mag-glass {
     width: 30px;
+    position: absolute;
+    top: 35px;
 }
 
 .search-area{
